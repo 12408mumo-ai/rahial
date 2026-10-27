@@ -1,0 +1,11 @@
+node_modules/
+dist/
+coverage/
+.vite/
+*.log
+.DS_Store
+
+# Keep the committed .env because it contains only the public Supabase
+# publishable key. Local overrides stay out of version control.
+.env.local
+.env.*.local
